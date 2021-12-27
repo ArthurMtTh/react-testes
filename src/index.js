@@ -1,11 +1,14 @@
+import "./index.css"
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
+const helloworld = <strong>Hello World</strong>
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    {helloworld}
+  </div>,
   document.getElementById('root')
 );
 
