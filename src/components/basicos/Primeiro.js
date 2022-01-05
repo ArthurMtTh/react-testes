@@ -5,7 +5,7 @@ export default function Primeiro() {
     return (
         <div>
             <p>I am a 'text' <br></br> {mensage}</p>
-            
+
         </div>
-        )
+    )
 }
